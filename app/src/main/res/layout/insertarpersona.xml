@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:id="@+id/LSTPERSONA"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/BTNGRABAR" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGRESE APELLIDO :"
+        android:id="@+id/textView"
+        android:layout_below="@+id/TXTNOMBRE"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/TXTNOMBRE" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TXTAPELLIDO"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grabar"
+        android:id="@+id/BTNGRABAR"
+        android:layout_below="@+id/TXTAPELLIDO"
+        android:layout_toRightOf="@+id/textView3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGRESAR"
+        android:id="@+id/BTNREGRESAR"
+        android:layout_alignBottom="@+id/BTNGRABAR"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGRESE CODIGO :"
+        android:id="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/TXTCODIGO" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TXTCODIGO"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGRESE  NOMBRE :"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/TXTCODIGO"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TXTNOMBRE"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/TXTCODIGO" />
+
+</RelativeLayout>
