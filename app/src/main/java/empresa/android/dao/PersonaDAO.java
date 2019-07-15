@@ -23,7 +23,7 @@ import empresa.android.bean.PersonaBean;
 public class PersonaDAO
 {
     ArrayList<PersonaBean> listado=null;
-    String ruta1="http://10.0.3.2:80/PROYECTOSERVIDORHTTPBUSCAR/CONTROLADOR/PersonaControlador.php";
+    String ruta1="http://10.0.3.2:80/PROYECTOSERVIDORHTTPBUSCAR/controlador/personacontrolador.php";
     String ruta2="http://10.0.3.2:80/PROYECTOSERVIDORHTTPINSERTAR/CONTROLADOR/PersonaControlador.php";
     public  ArrayList<PersonaBean> BuscarPersonas(PersonaBean  objPersonaBean)
     {
